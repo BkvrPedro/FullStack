@@ -1,0 +1,204 @@
+<!--PARA INICIAR O CÓDIGO, BASTAR INSERIR <HTML E APERTAR TAB, O PROGRAMA INCLUIRÁ O RESTANTE-->
+
+<!-- PARA FAZER ANOTAÇÕES, USAR O ATALHO CTRL + / -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedro Borges Bukvar</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style_modulo1_2_3.css">
+
+</head>
+<!-- 
+O ID USADO NO POEMA É UNICO, NAO EXITEM 02 ID DENTRO DO MESMO COD, JA A CLASS PODE SER USADA EM MAIS DE UM PONTO DO COD.
+NO ARQUIVO STYLE.CSS PUXAMOS O ID EXCLUSIVAMENTE PARA ALTERAR O POEMA E A CLASS PARA ALTERAR OS PARAGRÁFOS ONDEM EXITEM A TAG CLASS INSERIDA
+-->
+<body>
+
+	
+	<h1>MEU PRIMEIRO CÓDIGO</h1>
+
+		<p id="poema">O poeta é um fingidor. <br>
+		Finge tão completamente <br>
+		Que chega a fingir que é dor <br>
+		A dor que deveras sente.</p>
+
+	<p class="frases">Bom dia, hoje é dia 23/01/2022 e esse é o iníncio do <strong>meu primeiro código.</strong></p>
+
+	<p class="frases">Este trecho está em <strong>negrito</strong></p>
+
+<!--TAG "DIV" FUNCIONA PARA UNIFICAR UMA SÉRIE DE DADOS QUE VOCE QUEIRA, INSERINDO DIV NO COMEÇO E NO FINAL, TODO O CONTEÚDO FARÁ PARTE DO MESMO GRUPO-->
+	<div id="PARAGRAFOS_COM_DIV">
+		<p>Este trecho está em <em>itálico</em></p>
+
+		<p>Este é um trecho com <mark>marcação</mark></p>
+
+		<p>Este é um texto com a tag <small>small</small></p>
+
+		<p>Este é um texto que foi <del>removido</del> e substituído por esse</p>
+
+		<p>Este é um texto que foi <ins>inserido</ins> aqui</p>
+
+		<p>Este é um texto <sub>subscrito</sub></p>
+
+		<p>Este é um texto <sup>superscrito</sup>, por exemplo: x<sup>2</sup> = 10</p>
+	</div>
+
+<!--ABAIXO É UM LINK PARA OUTRO ARQUIVO QUE ESTÁ SALVO DENTRO DA MESMA PASTA-->
+
+	<a href="sobre.html">sobre</a>
+
+	<!--TAG "BR" PARA QUEBRA DE LINHA-->
+	<br>
+	<br>
+
+
+<!--ABAIXO É PARA  LINKAR COM UMA IMAGEM DO GOOLE ATRAVÉS DA OPÇÃO "COPIAR ENDEREÇO DA IMAGEM"-->
+<!--O ALT NO FINAL DO COD É PARA APARECER O TEXTO EM CASO DE ERRO-->
+<!--O ATRIBUTO WIDHT É PARA ALTERAR O TAMANHO DA IMAGEM, QUE NESSES CASOS FORAM REDUZIDAS-->
+
+	<img src="https://i0.wp.com/blogdocaminhoneiro.com/wp-content/uploads/2021/02/Scania-Frostfire-Svempa-3.jpg?resize=1170%2C882&ssl=1" alt="Scania Europa"  width="300">
+	
+
+	<!--ABAIXO É PARA MOSRTAR A IMAGEM QUE ESTÁ NA MESMA PASTA DOS ARQVUIVOS-->
+
+	<img src="IMAGENS/scania.jpg" alt="SCANIA EUROPA" width="300">
+
+<!--ABAIXO É PARA FAZER COM QUE O LINK FIQUE DENTRO DA IMAGEM, CLICANDO SERÁ REDIRECIONADO AO LINK-->
+<!--ABRIR A TAG "A", INSERIR O LINK DO SITE, ABRIR A TAG "IMG" E INSERIR A IMAGEM E SOMENTE DEPOIS FECHAR A TAG "A"-->
+
+	<a href="https://blogdocaminhoneiro.com/2021/02/scania-frostfire-esta-finalmente-pronto/">
+
+	<img src="https://i0.wp.com/blogdocaminhoneiro.com/wp-content/uploads/2021/02/Scania-Frostfire-Svempa-3.jpg?resize=1170%2C882&ssl=1" alt="Scania Europa"	width="300">
+
+	</a>
+
+<!-- PARA FAZER LISTAS NÃO ORDENADAS, USAR TAG "UL"(UNORDERNED LIST)(NÃO ORDENADAS = MARCADAS POR BOLINHAS)-->
+<!-- USAR A TAG "LI" PARA  CADA ITEM DA LISTA-->
+
+	<h2>Como fazer listas desorndenadas?</h2>
+	<ul>
+		<li>Base</li>
+		<li>Rímel</li>
+		<li>Corretivo</li>
+	</ul>
+
+<!-- PARA LISTAS ORDENADAS USAR TAG "OL" (LISTAS COM ITEM 1, ITEM 2, ETC...)-->
+
+	<h2>Como fazer listas ordenadas?</h2>
+	<ol>	
+		<li>PEDRO</li>
+		<li>THIAGO</li>
+		<li>JOÃO</li>
+	</ol>
+
+<!--
+COMO CRIAR TABELAS COM HTML:
+(TAG "TABLE" PARA COMEÇAR)
+(CRIAR LINHAS COM TAG "TR" PARA TODA LINHA NOVA)
+(CABEÇALHO USAR "TH" TABLE HEAD)
+(DADOS A SEREM PREENCHIDOS USAR TAG "TD" TABLE DATA)
+-->
+
+	<table> 				  <!-- CRIAR TABELA -->
+		<tr> 				  <!-- CRIAR LINHA -->
+			<th>Nome</th>     <!-- CRIAR COLUNA 1 -->
+			<th>Telefone</th> <!-- CRIAR COLUNA 2 -->
+			<th>E-mail</th>   <!-- CRIAR COLUNA 3 -->
+		</tr>				  <!-- FECHAR LINHA -->
+		<tr>
+			<td>Pedro Borges Bukvar</td>
+			<td>14-99603-4115</td>
+			<td>pedrobbukvar@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Thiago Borges</td>
+			<td>14-99612-4027</td>
+			<td>ThiagoBorges@outlook.com</td>
+		</tr>
+	</table>
+
+	<!-- EXEMPLOS DE UNIDADES DE MEDIDA (FAZER O CSS MOSTRAR SEM CONTEUDO INTERNO NA DIV) -->
+
+	<br>
+
+	<div id="cm"> </div> <!-- EXEMPLO DE UNIDADE DE MEDIDA EM CM, DENTRO DO ARQUIVO STYLE.CSS FORÇAMOS ESSA DIV A FAZER UM QUADRADO DE 1CM POR 1CM VERMELHO-->
+
+	<br>
+
+	<div id="mm"> </div> <!-- EXEMPLO DE UNIDADE MILÍMETROS -->
+
+	<br>
+
+	<div id="in"> </div> <!-- EXEMPLO DE UNIDADE INCHES (POLEGADAS) -->	
+
+	<br>
+
+	<div id="px"> </div> <!-- EXEMPLO DE UNIDADE PIXEL -->
+
+	<br>
+
+	<div id="pt"> </div> <!-- EXEMPLO DE UNIDADE PONTO -->
+
+	<br><br>
+
+
+	Texto no body 	
+										<!-- O TEXTO POR PADRÃO TEM 16X -->
+	<div class="container">				<!-- NO CSS AUMENTAMOS A FONTE DA CLASS CONTAINER PARA 20PX -->
+		Unidade "PX"
+
+		<div class="container2">		<!-- E A FONTE DA CLASS CONTAINER2 PARA 2EM (2X ELEMENTO, COMO "CONTAINER2" É HERDEIRO DO "CONTAINER" O TAMANHO SERÁ DE 2X O ELEMENTO "CONTAINER") -->
+			Unidade "EM"
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="container3"> 			<!-- NO CSS DEFINIMOS A FONTE DA CLASS CONTAINER3 PARA 2 "REM", QUE É IGUAL A 2X A UNIDADE DO ELEMENTO RAIZ (PRIMEIRA TAG = <HTML>) -->
+			Unidade "REM"
+	</div> 			
+
+	<div class="container4">			<!-- NO CSS DEFINIMOS O WIDTH DA CLASS CONTAINER4 PARA 50 "VW", QUE É IGUAL A 50% DA LARGURA DA JANELA -->
+			Unidade "VW"
+	</div>	
+
+	<div class="container5">			<!-- NO CSS DEFINIMOS O WIDTH DA CLASS CONTAINER5 PARA 50 "VH", QUE É IGUAL A 50% DA ALTURA DA JANELA -->
+			Unidade "VH"
+	</div>	
+	
+	<div class="container6">			<!-- NO CSS DEFINIMOS O WIDTH DA CLASS CONTAINER6 PARA 30 "VMIN", QUE É IGUAL A 30% DO MENOR VALOR ENTRE ALTURA E LARGURA DA JANELA -->
+			Unidade "VMIN"				<!-- OU SEJA, SE A ALTURA FOR MENOR, O WIDTH SERA 30% DESTA, SE A LARGURA FOR MENOR, O WIDTH SERA 30% DESTA. -->
+	</div>								
+
+	<div class="container7">			<!-- NO CSS DEFINIMOS O WIDTH DA CLASS CONTAINER7 PARA 30 "VMAX", QUE É IGUAL A 30% DO MAIOR VALOR ENTRE ALTURA E LARGURA DA JANELA -->
+			Unidade "VMAX"				<!-- OU SEJA, SE A ALTURA FOR MAIOR, O WIDTH SERA 30% DESTA, SE A LARGURA FOR MAIOR, O WIDTH SERA 30% DESTA. -->
+	</div>								
+
+	<div class="container8">			<!-- NO CSS DEFINIMOS O WIDTH DA CLASS CONTAINER8 PARA 40 "%", QUE É IGUAL A 40% DO ELEMENTO PAI (NESSE CAS O O PAI = <BODY>) -->
+			Unidade "%"				
+	</div>				
+
+	<br><br>
+
+
+	<!-- MARGING E PADDING -->
+
+	<div id="margin">
+		MARGIN
+	</div>
+
+	<br>
+
+	<div id="padding">
+		PADDING
+	</div>	
+
+
+
+
+</body>
+</html>
