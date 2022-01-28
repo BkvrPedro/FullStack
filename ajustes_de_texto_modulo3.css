@@ -1,0 +1,50 @@
+/* AJUSTE DE COR */
+#texto1{
+    color: #f7c1bb;
+}
+
+/* AJUSTE DE ALINHAMENTO (RIGHT, LEF, CENTER) */
+#texto2{
+    text-align: center;
+}
+
+/*ALINAHR TEXTO NAS LATERASI*/
+#texto3{
+    text-align: justify;
+}
+
+/*TEXT-TRANSFORM (UPPERCASE=TUDO MAIUSCULO / LOWERCASE=TUDO MINUSCULO E CAPITALIZE=TODAS PRIMEIRAS LETRAS MAIUSCULAS*/
+/* TEXT-INDENT = ESPAÇO DO PARÁGRAFO NA PRIMEIRA PALAVRA */
+#texto4{
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 40px;
+}
+
+/* TEXT-DECORATION = UNDERLINE - OVERLINE(LINHA EM CIMA) - LINE-THROUGH(RISCADO) - PODE-SE APLICAR OS 3 AO MESMO TEMPO */
+#texto5{
+    text-align: justify;
+    text-decoration: line-through underline overline;
+   
+}
+
+/* TIRAR COR E UNDERLINE DO LINK */
+#link{
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+}
+
+/* LETTER-SPACING = AUMENTAR OU DIMINUIR ESPAÇO ENTRE AS LETRAS DE UM TEXTO */
+/* LINE-HEIGHT = ESPAÇAMENTO ENTRE AS LETRAS */
+/* WORD-SPACING = ESPAÇAMENTO ENTRE AS PALAVRAS */
+/* TEXT-SHADOW = (X)PX=SOMBRA PARA DIREITA / (Y)PX=SOMBRA PARA BAIXO / (Z)PX=EXPESSURA/DISTANCIA DA SOMBRA (QUANTO MENOR O VALOR, MAIS NITIDA A SOMBRA) E COR  */
+#texto6{
+    text-align: justify;
+   letter-spacing: 5px;
+   line-height: 25px;
+   word-spacing: 40px;
+   color: red;
+   font-size: 30px;
+   text-shadow: 5px 5px 5px black;   
+}
