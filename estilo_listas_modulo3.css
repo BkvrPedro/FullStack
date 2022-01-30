@@ -1,0 +1,72 @@
+
+/* BORDAS EM TODAS LI (LINHAS) FICANDO ESTILO PLANILHA */
+li{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    background-color: palegreen; 
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+   
+}
+
+/* LIST-STYLE-TYPE = CARACTERES DA LISTA (PONTOS, NUMEROS ROMANOS, LETRAS ETC) */
+/* LIST-STYLE-POSITION = DEFINE SE O MARCADOR DA LISTA FICARA DENTRO OU FORA DAS BORDAS */
+ul{
+    list-style-type: georgian;
+    list-style-position: inside;
+    background-color: thistle;
+    padding: 10px;
+    margin: 0;
+}
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    background-color: tomato;
+    padding: 10px;
+    margin: 0;
+}
+
+
+/* ADICIONANDO IMAGEM */
+#imagem{
+    list-style-image: url(IMAGENS/tick1.png);
+    background-color: turquoise;
+    list-style-position: inside;
+    padding: 10px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* LISTA DE PROPRIEDADES: 
+
+Value	                        Description
+
+disc	                        Default value. The marker is a filled circle
+armenian	                    The marker is traditional Armenian numbering
+circle	                        The marker is a circle
+cjk-ideographic             	The marker is plain ideographic numbers
+decimal	                        The marker is a number
+decimal-leading-zero	        The marker is a number with leading zeros (01, 02, 03, etc.)
+georgian	                    The marker is traditional Georgian numbering
+hebrew	                    	The marker is traditional Hebrew numbering
+hiragana	                   	The marker is traditional Hiragana numbering
+hiragana-iroha	               	The marker is traditional Hiragana iroha numbering
+katakana		                The marker is traditional Katakana numbering
+katakana-iroha		            The marker is traditional Katakana iroha numbering
+lower-alpha		                The marker is lower-alpha (a, b, c, d, e, etc.)
+lower-greek		                The marker is lower-greek
+lower-latin		                The marker is lower-latin (a, b, c, d, e, etc.)
+lower-roman	                	The marker is lower-roman (i, ii, iii, iv, v, etc.)
+none		                    No marker is shown
+square	                    	The marker is a square
+upper-alpha		                The marker is upper-alpha (A, B, C, D, E, etc.)
+upper-greek		                The marker is upper-greek
+upper-latin		                The marker is upper-latin (A, B, C, D, E, etc.)
+upper-roman		                The marker is upper-roman (I, II, III, IV, V, etc.)
+*/
