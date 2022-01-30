@@ -1,6 +1,12 @@
-body{
+
+
+/* PRIMEIRA TENTATIVA */
+
+#tentativa1{
     background-image: url(imagens/backgorund.png);
     background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #nome{
@@ -34,7 +40,7 @@ body{
 
 }
 
-#yt{
+#youtube{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     background-image: url(imagens/Youtube.png);
@@ -43,4 +49,39 @@ body{
     padding-left: 40px;
     background-size: 40px;
     background-position: left;
+}
+
+/* CORREÇÃO */
+
+body{
+    background-color: black;
+}
+
+#tentativa2{
+    background:url(imagens/backgorund.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    padding: 1px 20px;
+    margin:auto;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#ig{
+    list-style-image: url(imagens/Insta.png);
+}
+
+#tt{
+    list-style-image: url(imagens/Twitter.png);
+}
+
+#yt{
+    list-style-image: url(imagens/Youtube.png);
 }
