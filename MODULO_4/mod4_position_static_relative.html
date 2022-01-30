@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - Modulo 4 - Positiion Static e Relative</title>
+
+    <!-- AQUI USAMOS UMA ESPECIE DE CLASS HIBRIDA, ONDE A PRIMEIRA PARTE USAMOS APENAS PARA TAMANHO OS BACKGROUNS E A SEGUNDA PARA AS CORES -->
+    <!-- USANDO O POSITION: RELACTIVE PODEMOS USAR OUTRAS PROPRIEDADES COMO: LEFT, RIGTH, TOP, BOTTOM -->
+    <!-- PARCE MUITO COM A MAGEM, MAS QUANDO USAMOS O POSITION ELE ALTERA SOMENTE O VALOR DA CLASS INSERIDA (QUE ATÉ SOBREPOE OUTROS BACKGROUNS) -->
+    <!-- O MARGIN USADO NESSA SITUAÇÃO, TAMBEM ALTERARIA OUTROS ELEMENTOS MOVENDO JUNTO -->
+
+    <style>
+        .quadro {
+            border: 1px solid gray;
+            width: 500px;
+            height: 400px;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado1 {
+            background-color: green;
+            position: relative;
+            left: 400px;
+        }
+
+        .quadrado2 {
+            background-color: red;
+            position: relative;
+            top: 200px;
+        }
+
+        .quadrado3 {
+            background-color: violet;
+            position: relative;
+            left: 400px;
+            top: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="quadro">
+        <div class="quadrado - quadrado1"></div>
+        <div class="quadrado - quadrado2"></div>
+        <div class="quadrado - quadrado3"></div>
+
+    </div>
+
+
+</body>
+
+</html>
