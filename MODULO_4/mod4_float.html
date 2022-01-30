@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8 - Modulo 4 - Float</title>
+
+    <!-- AQUI USAMOS O FLOAT PARA A IMAGEM FICAR A ESQUERDA DO TEXTO, VISTO QUE O PARAGRAFO NAO PERMITE ISSO NATURALMENTE -->
+    <!-- USAMOS O CLEAR, QUE QUANDO SELECIONADO NAO PERMITE NADA FLUTUANTE DO LADO DO TEXTO -->
+    <!-- USAMOS O OVERFLOW NA DIV COM A BORDA PARA QUE A BORDA SE AJUSTE A IMAGEM -->
+
+    <style>
+        img {
+            width: 300px;
+        }
+
+        #i1 {
+            float: left;
+        }
+
+        p {
+            clear: none;
+        }
+
+        div {
+            border: 2px solid gray;
+            overflow: auto;
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            padding: 10px;
+            background-color: #f7c1bb;
+            margin: 5px;
+            border: 2px solid black;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img id="i1" src="IMAGENS_4/09111156392166.jpg" alt="">
+
+        <p>Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer
+            Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer </p>
+
+    </div>
+
+    <!-- CRIANDO UM MENU COM FLOAT -->
+
+    <ul>
+        <li>Home</li>
+        <li>Cursos</li>
+        <li>Contato</li>
+        <li>Trabalhe Conosco</li>
+    </ul>
+
+
+</body>
+
+</html>
