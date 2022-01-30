@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 - Modulo 4 - Positiion Absolute</title>
+
+    <!-- AQUI USAMOS UMA ESPECIE DE CLASS HIBRIDA, ONDE A PRIMEIRA PARTE USAMOS APENAS PARA TAMANHO OS BACKGROUNS E A SEGUNDA PARA AS CORES -->
+    <!-- A POSIÇÃO INICIAL DO ELEMENTO NAO AFETA OS DEMAIS DEPOIS QUE USAMOS O POSITION ABSOLUTE -->
+    <!-- ASSIM, SE O QUADRADO DO MEIO FOR POSICINOADO NA DIREITA DA TELA, O QUADRADO DE BAIXO SUBIRA E OCUPARA SUA POSICAO ANTIGA -->
+    <!-- DESSA FORMA, O POSIOCIONAMENTE DO ELEMENTO SEREA EM RELAÇÃO PAI OU SUBSEQUENTE QUE NÃO SEJA ESTATICO (PADRAO) -->
+
+    <!-- EXEMPLO O QUADRADO VERDE, DEFINIMOS O QUADRO COMO ESTILO RELATIVO E O VERDE COMO ABSOLUTO COM RIGHT E BOTTOM 0, ASSIM ELE FIXARA NO CANTO -->
+
+    <style>
+        .quadro {
+            position: relative;
+            border: 1px solid gray;
+            width: 500px;
+            height: 400px;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado1 {
+            background-color: green;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        .quadrado2 {
+            background-color: red;
+        }
+
+        .quadrado3 {
+            background-color: violet;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="quadro">
+        <div class="quadrado - quadrado1"></div>
+        <div class="quadrado - quadrado2"></div>
+        <div class="quadrado - quadrado3"></div>
+
+    </div>
+
+
+</body>
+
+</html>
