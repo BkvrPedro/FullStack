@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 7 - Modulo 4 - Positiion Sticky</title>
+
+    <!-- AQUI USAMOS UMA ESPECIE DE CLASS HIBRIDA, ONDE A PRIMEIRA PARTE USAMOS APENAS PARA TAMANHO OS BACKGROUNS E A SEGUNDA PARA AS CORES -->
+    <!-- USANDO O POSITION STICKY O ELEMENTO "GRUDENTO" PASSA A ANDAR JUNTO COM A VIEWPORT QUANDO DESCE A BARRA E USAMOS "TOP:0" -->
+
+    <!-- É USADO QUANDO QUEREMOS QUE OS DEMAIS ELEMENTOS SAIBAM QUE ESTE AINDA EXISTE E NAO TOME O LUGAR DELE E QUE ROLE COM A PAGINA QUANDO MEXERMOS -->
+
+    <style>
+        .quadro {
+            position: relative;
+            border: 1px solid gray;
+            width: 500px;
+            height: 4000px;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado1 {
+            background-color: green;
+            position: sticky;
+            top: 0px;
+        }
+
+        .quadrado2 {
+            background-color: red;
+        }
+
+        .quadrado3 {
+            background-color: violet;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="quadro">
+        <div class="quadrado - quadrado1"></div>
+        <div class="quadrado - quadrado2"></div>
+        <div class="quadrado - quadrado3"></div>
+
+    </div>
+
+
+</body>
+
+</html>
