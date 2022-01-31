@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9 - Modulo 4 - Alinhamento vertical</title>
+
+    <style>
+        .cartao {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            float: left;
+            text-align: center;
+        }
+
+        .cartao2 {
+            clear: left;
+            border: 2px solid green;
+            float: left;
+            width: 400px;
+            height: 200px;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .c1 {
+            background-color: aqua;
+            line-height: 200px;
+        }
+
+        .c2 {
+            background-color: aquamarine;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .c3 {
+            background-color: cadetblue;
+            position: relative;
+            line-height: 200px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="cartao">
+        <div class="c1">Pedro Bukvar</div>
+    </div>
+
+    <div class="cartao">
+        <div class="c2">Pedro Bukvar</div>
+    </div>
+
+    <div class="cartao2">
+        <div class="c3"> Pedro Bukvar</div>
+
+    </div>
+
+
+
+</body>
+
+</html>
